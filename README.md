@@ -188,3 +188,64 @@ catatan : kita tidak boleh mengganti nilai untuk variabel val ataupun constanta 
     catatan : untuk membuat variabel nullabel kita harus menambakan tanda tanya (?) setelah tipe data nya dan wajib menambahkan tipe data nya secara explisit dan untuk menampilkan nya pun jika kita ingin lebih dari 2 expresi maka kita wajib menambahkan tanda tanya juga setelah namavariabel nya jika tidak akan menghasilkan <small style="color: red;">ERROR</small>
 </div>
 
+<h2>Tipe data Array(larik)</h2>
+<p>Tipe data array merupakan tipe data yan dapat menampung nilai nilai yang tipe data nya sama(karna dikotlin hanya dapat menampung nilai dengan tipe data sama)</p>
+
+<h3>Cara penggunaanya : </h3>
+<p> val mahasiswa = arrayOf("Nugie kurniawan","Muhammad Nadin Nugraha","Azib almazida","Rakha sagraha")</p>
+
+<div style="text-align: justify;">
+    catatan : Di dalam array ada yang namanya index(merupakan key atau istilah nya penanda untuk array) yang di mulai dari 0, dan dalam array panjang index nya statik(tetap) jadi tidak bisa di tambah panjang nya
+</div>
+
+<h3>Fungsi untuk memanggil dan mengubah isi array serta mendapatkan panjang element array</h3>
+<p>untuk memanggil dan mengubah isi array bisa menggunakan .set() .get() dan .size</p>
+
+<h3>Mengubah nilai array</h3>
+<p>dalam mengubah nilai array ada 2 cara .set() dan []</p>
+
+<h4>Cara penggunaanya : </h4>
+<ul>
+    <li>mahasiswa.set(2,"Laurin agnesa putri")</li>
+    <li>mahasiswa[3] = "Rizal hidayatullah"</li>
+</ul>
+
+<div style="text-align: justify;">
+    catatan : saat ingin mengubah nilai array kita perlu mengetahui index mana yang mau di ubah karna jika kita mengisi index yang tidak ada dalam array maka akan menghasilkan error
+</div>
+
+<h3>Mendapatkan nilai array</h3>
+<p>dalam mendapatkan nilai array ada 2 cara yaitu .get() dan array[]</p>
+
+<h4>Cara penggunaanya : </h4>
+<ul>
+    <li>println(mahasiswa.get(0))</li>
+    <li>println(mahasiswa[1])</li>
+</ul>
+
+<div style="text-align: justify;">
+    catatan : saat ingin mendapatkan nilai array kita peru mengetahui index mana yang ingin kita dapatkan karna jika kita mengisi di index yang tidak ada dalam array maka akan menghasilkan error
+</div>
+
+<h3>Mendapatkan panjang element array</h3>
+<p>kita dapat menggunakan fungsi bawaan dari kotlin untuk mendapatkan panjang dari element array yaitu dengan .size</p>
+
+<h4>Cara penggunaanya : </h4>
+<p>mahasiswa.size</p>
+
+<div style="text-align: justify;">
+    catatan : fungsi .size itu untuk mencari panjang dari element array dan <strong>BUKAN</strong> untuk mencari panjang index array, untuk mendapatkan panjang index array kita bisa menggunakan rumus mahasiswa.size -1 agar mendapatkan panjang index array
+</div>
+
+<h3>Array Nullabel</h3>
+<p>Dalama array kita juga dapat mengformat nullable walaupun tidak dengan pembuatan array standar</p>
+
+<h4>Cara penggunaanya : </h4>
+    <p>val arr: Array &lt;string?&gt;
+ = arrayOfNulls(2)</p>
+
+<div style="text-align: justify;">
+    catatan : Untuk membuat array nullable kita harus menambahkan tanda tanya setelah tipe datanya dan kita harus menggunakan arrayOfNulls(2) untuk mengset array nullable dan kita harus menambahkan panjang nya langsung
+</div>
+
+<p>Tambahan : jika ingin mencetak semua nya kita dapat mencetak seluruh array tanpa perlu satu persatu dengan perulangan (looping)</p>
