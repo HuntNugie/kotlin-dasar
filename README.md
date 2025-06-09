@@ -135,3 +135,56 @@ di dalam kotlin penggabungan string menggunakan operator "+" kurang di sarankan 
 catatan :
 di dalam string template jika hanya mengisi satu expresi kita dapat hanya menggunakan $ tetapi jika lebih dari satu expresi kita menggunakan ${}
     
+<h2>Tentang variabel</h2>
+<p>Variabel adalah tempat atau wadah untuk menampung sebuah nilai secara fungsi variabel di bagi menjadi 2 yaitu mutable dan immutable</p>
+
+<h3>Mutable(dapat di ubah)</h3>
+<p>variabel dengan muttable di kotlin adalah variabel yang nilai nya suatu saat dapat di ubah</p>
+
+<h4>Cara penggunaanya : </h4>
+<p>var namaDepan = "Nugie"</p>
+
+<div style="text-align: justify;">
+catatan : dalam kotlin lebih di sarankan jika kita yakin bahwa nilai variabelnya tidak akan berubah maka lebih di saranakan menggunakan variable immutable di banding mutable 
+</div>
+
+<h3>immutable(tidak dapat di ubah)</h3>
+<p>variabel immutable di kotlin berkebalikan dengan mutable yaitu adalah variabel yang nilai nya tidak dapat di ubah dan di dalam kotlin ada 2 tipe variabel yang berjenis immutable yaitu val biasa dan constanta</p>
+
+<h4>Cara penggunaanya val biasa : </h4>
+<p>val namaBelakang = "Kurniawan"</p>
+
+<h4>Cara penggunaanya constanta : </h4>
+<p>const val APP = "Belajar Kotlin NGK"</p>
+
+<h4>Perbandingan antara val biasa dan constanta</h4>
+<div style="text-align: justify;">
+    <ul>
+    <li>val = seperti variabel biasa</li>
+    <li>const val = sama mirip dengan val hanya saja Di buat di global scope dan pembuatanya wajib menggunakan val dan di sarankan menggunakan upper case untuk nama variabel nya untuk membedakan bahwa variabel ini adalah varibael constanta</li>
+</ul>
+</div>
+
+<div style="text-align: justify;">
+catatan : kita tidak boleh mengganti nilai untuk variabel val ataupun constanta karena akan menghasilkan error, dan jika kita ingin membuat variabel coonstanta wajib menggunakan val dan di sarankan menggunakan upper case untuk nama variabel nya untuk membedakan bahwa variabel ini adalah constanta serta membaut nya di global scope
+
+</div>
+
+<h3>Variable nullable</h3>
+<div style="text-align: justify;">
+    di dalam kotlin kita tidak membuat deklarasi variabel kosong sehingga ktia harus mengisikan value langsung saat kita membuat variabel baru dan jika kita tidak menginginkan membuat variabel kosong yang nanti akan di isi kita dapat membuat variable nullable(walapun masih tetap tidak di sarankan)
+</div>
+<div style="text-align: justify;">
+    Varibel nullabel merupakan variabel yang kita dapat isi nilai null sehingga kita dapat mengisikan value nya nanti
+</div>
+
+<h4>Cara penggunaanya : </h4>
+<ul>
+    <li>var isi: String? = null</li>
+    <li> println(isi?.length)</li>
+</ul>
+
+<div style="text-align: justify;">
+    catatan : untuk membuat variabel nullabel kita harus menambakan tanda tanya (?) setelah tipe data nya dan wajib menambahkan tipe data nya secara explisit dan untuk menampilkan nya pun jika kita ingin lebih dari 2 expresi maka kita wajib menambahkan tanda tanya juga setelah namavariabel nya jika tidak akan menghasilkan <small style="color: red;">ERROR</small>
+</div>
+
