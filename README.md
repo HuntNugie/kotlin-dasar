@@ -97,3 +97,41 @@ tipe data boolean merupakan tipe data yang hanya menampung 2 nilai yaitu <strong
 
 catatan :
 Tipe data boolean di kotlin ini lebih banyak di gunakan untuk perkondisian seperti if else ataupun ternary
+
+
+    
+<h2>Tipe data String</h2>
+<div style="text-align: justify;">
+tipe data string adalah tipe data gabungan yang terdiri dari beberapa karakter huruf atau banyak karakter atau mungkin simple nya adalah <strong>Text</strong>
+</div>
+
+<h3>Cara penggunaan : </h3>
+<ul>
+    <li>var depan: String = "Nugie"</li>
+    <li>var belakang: String = "Kurniawan"</li>
+    <li>var alamat1: String = """
+        |Perumahan Orowodol 5,
+        |Kab Sumedang
+        |jawa barat
+        |indonesia
+    """</li>
+</ul>
+
+<div style="text-align: justify;">
+   catatan : untuk tipe data string kita wajib menggunakan kutip 2 ("") atau kita dapat menggunakan kutip 3 ("""") untuk membuat string yang tidak hanya satu baris tapi juga beberapa baris, ditambah jika ingin menggunakan kutip 3 kita dapat menggunakan sebuah method/fungsi bawaan kotlin yaitu <strong>.trimMargin()</strong> secara default akan menghilangkan tab atau spasi yang memliki "|" di awal baris. atau jika tidak ingin menggunakan "|" kita dapat menggunakan tanda yang lain asalkan parameter yang kita berikan di method trimMargin() sesuai dengan tanda yang kita gunakan.
+</div>
+
+<h3>Penggabungan string</h3>
+di dalam kotlin kita dapat menggabungakan 2 string atau lebih dengan menggunakan operator "+" contoh nya :
+<p>var namaLengkap = depan + " " + belakang</p>
+
+<h3>String template</h3>
+di dalam kotlin penggabungan string menggunakan operator "+" kurang di sarankan oleh karna itu kita dapat menggunakan fitur dari kotlin yaitu <strong>String template</strong> <br>
+<div style="text-align: justify;">
+    string template merupakan fitur bawaan nya kotlin dimana kita dapat menyusun beberapa string atau banyak dengan rapih dan mudah
+</div>
+<h4>Cara Penggunaan : </h4>
+<p> println("$namaLengkap panjang huruf nya adalah ${namaLengkap.length}")</p>
+catatan :
+di dalam string template jika hanya mengisi satu expresi kita dapat hanya menggunakan $ tetapi jika lebih dari satu expresi kita menggunakan ${}
+    
