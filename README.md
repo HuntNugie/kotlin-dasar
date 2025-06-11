@@ -289,3 +289,92 @@ catatan : kita tidak boleh mengganti nilai untuk variabel val ataupun constanta 
 <div style="text-align: justify;">
     catatan : jika dalam range nya kita menggunakan step maka bisa saja hasil nya akan berbeda tergantung range dan step nya
 </div>
+
+<h2>Aritmatika Operator</h2>
+<div style="text-align: justify;">Operator aritmatika merupakan Operasi penjumlahan di dalam pemograman dimana kita dapat melakukan <strong>operasi matematika</strong> yang di terapkan di dalam pemograman</div>
+
+<h3>Daftar operasi : </h3>
+<table style="border: 1px solid black; text-align: center;">
+    <thead>
+        <tr>
+            <th>Operasi</th>
+            <th>Fungsi</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>+</td>
+            <td>Untuk pertambahan</td>
+        </tr>
+        <tr>
+            <td>-</td>
+            <td>Untuk pengurangan</td>
+        </tr>
+        <tr>
+            <td>*</td>
+            <td>Untuk perkalian</td>
+        </tr>
+        <tr>
+            <td>/</td>
+            <td>Untuk pembagian</td>
+        </tr>
+        <tr>
+            <td>%</td>
+            <td>Untuk modulus(sisa bagi)</td>
+        </tr>
+    </tbody>
+</table>
+
+<h4>Cara penggunaanya : </h4>
+<ul>
+    <li>var tambah = a + b</li>
+    <li>var kurang = a-b</li>
+    <li>var bagi = a/b</li>
+    <li>var kali = a*b</li>
+    <li>var modulus = a%b</li>
+</ul>
+<h3>Augmented assingment</h3>
+<div style="text-align: justify;">
+    Augmented assingment merupakan operator yang di gunakan jika kita ingin melakukan operasi matematika langsung ke variabel nya 
+</div>
+
+<h4>Daftar Operasi Augmented assingment</h4>
+<table style="border: 1px solid black;">
+    <thead>
+        <tr>
+            <th>Operasi</th>
+            <th>Fungsi</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>+=</td>
+            <td>Melakukan Penambahan yang sebelumnya dengan yang di jumlahkan </td>
+        </tr>
+        <tr>
+            <td>-=</td>
+            <td>Melakukan Pengurangan yang sebelumnya dengan yang di jumlahkan </td>
+        </tr>
+        <tr>
+            <td>*=</td>
+            <td>Melakukan Perkalian yang sebelumnya dengan yang di jumlahkan </td>
+        </tr>
+        <tr>
+            <td>/=</td>
+            <td>Melakukan Pembagian yang sebelumnya dengan yang di jumlahkan </td>
+        </tr>
+        <tr>
+            <td>%=</td>
+            <td>Melakukan Sisa bagi dari yang sebelumnya dengan yang di jumlahkan </td>
+        </tr>
+    </tbody>
+</table>
+
+<h4>Cara penggunaanya : </h4>
+<ul>
+    <li>tambah += a</li>
+    <li>kurang -= a</li>
+    <li>bagi /= b</li>
+    <li>kali *= b</li>
+    <li>modulus %= 3</li>
+</ul>
