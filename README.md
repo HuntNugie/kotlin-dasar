@@ -249,3 +249,43 @@ catatan : kita tidak boleh mengganti nilai untuk variabel val ataupun constanta 
 </div>
 
 <p>Tambahan : jika ingin mencetak semua nya kita dapat mencetak seluruh array tanpa perlu satu persatu dengan perulangan (looping)</p>
+
+<h2>Tipe data Range</h2>
+<p>Tipe data range adalah tipe data yang isinya adalah angka berurutan mau menaik (ascending) ataupun menurun (descending)</p>
+
+<h3>Cara penggunaanya : </h3>
+<ul>
+    <li>  var range = 1..100 </li>
+    <li>  var down = 100 downTo 1</li>
+</ul>
+
+<div style="text-align: justify;">
+    catatan : Dalam range itu di buat dengan <strong>titik-titik (..)</strong>, untuk melakukan nya terbalik menurun bisa menggunakan <strong>downTo</stronog>
+</div>
+
+<h3>Step</h3>
+<div>Terkadang kita ingin kenaikan atau menurun nya suatu range itu mau di custom oleh kita oleh karna itu dalam range kita dapat menggunakan step untuk mengatur kenaikan atau menurun nya suatu angka berurutan</div>
+
+<h4>Cara penggunaanya : </h4>
+<ul>
+    <li>  var range = 1..100 step 2 </li>
+    <li>  var down = 100 downTo 1 step 3</li>
+</ul>
+
+<div style="text-align: justify;">
+    catatan : berhati hati jika menggunakan step otomatis angka berakhir nya akan berubah  serta angka berurutan yang ada di range pun berubah
+</div>
+
+<h3>Fungsi dalam range</h3>
+<p>Di dalam range mempunyai fungsi tambahan : </p>
+<ul>
+    <li>println(range.count()) = <strong>.count()</strong> Berfungsi untuk mendapatkan total banyak range tergantung step nya </li>
+    <li>println(range.contains(50)) = <strong>.contains(50)</strong> Berfungsi untuk mengecek suatu angka berada di dalam range dan mengembalikan <strong style="color: green;">TRUE</strong> dan <strong style="color: red;">FALSE</strong></li>
+    <li>println(range.first) = <strong>.first</strong> untuk mendapatkan angka (pertama) range nya di mulai dari angka berapa</li>
+    <li>println(range.last) = <strong>.last</strong> untuk mendapatkan angka range (terakhir) nya berakhir angka berapa</li>
+    <li>println(range.step) = <strong>.step</strong> untuk mendapatkan step yang di gunakan dalam range </li>
+</ul>
+
+<div style="text-align: justify;">
+    catatan : jika dalam range nya kita menggunakan step maka bisa saja hasil nya akan berbeda tergantung range dan step nya
+</div>
