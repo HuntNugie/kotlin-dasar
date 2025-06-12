@@ -378,3 +378,63 @@ catatan : kita tidak boleh mengganti nilai untuk variabel val ataupun constanta 
     <li>kali *= b</li>
     <li>modulus %= 3</li>
 </ul>
+
+<h2>Operasi Perbandingan</h2>
+<div style="text-align: justify;">
+    Operasi perbandingan adalah operasi yang membandingkan antar 2 nilai dan akan menghasilkan nilai boolean yaitu <strong>TRUE</strong> dan <strong>FALSE</strong>
+</div>
+
+<h3>Daftar Operasi perbandingan</h3>
+<table style="border: 1px solid black;">
+    <thead>
+        <tr>
+            <th>Operasi</th>
+            <th>Arti</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>></th>
+            <th>Lebih dari</th>
+        </tr>
+        <tr>
+            <th><</th>
+            <th>Kurang dari</th>
+        </tr>
+        <tr>
+            <th>>=</th>
+            <th>Lebih dari atau sama dengan</th>
+        </tr>
+        <tr>
+            <th><=</th>
+            <th>Kurang dari atau sama dengan</th>
+        </tr>
+        <tr>
+            <th>==</th>
+            <th>Sama dengan</th>
+        </tr>
+        <tr>
+            <th>===</th>
+            <th>Sama dengan(lebih ketat)</th>
+        </tr>
+        <tr>
+            <th>!=</th>
+            <th>Tidak sama dengan</th>
+        </tr>
+    </tbody>
+</table>
+
+<h3>Cata penggunaanya : </h3>
+<ul>
+    <li>println("a > b ${a>b}")</li>
+    <li>println("a < b ${a<b}")</li>
+    <li>println("a >= b ${a>=b}")</li>
+    <li>println("a <= b ${a<=b}")</li>
+    <li>println("a == b ${a==b}")</li>
+    <li>println("a === b ${a===b}")</li>
+    <li>println("a != b ${a!=b}")</li>
+</ul>
+
+<div style="text-align: justify;">
+    catatan : tidak hanya untuk angka perbandingan ini juga termasuk ke huruf string dan char serta untuk === itu tidak hanya membandingkan dengan nilainya saja tetapi sama tipe data nya juga
+</div>
