@@ -260,7 +260,7 @@ catatan : kita tidak boleh mengganti nilai untuk variabel val ataupun constanta 
 </ul>
 
 <div style="text-align: justify;">
-    catatan : Dalam range itu di buat dengan <strong>titik-titik (..)</strong>, untuk melakukan nya terbalik menurun bisa menggunakan <strong>downTo</stronog>
+    catatan : Dalam range itu di buat dengan <strong>titik-titik (..)</strong>, untuk melakukan nya terbalik menurun bisa menggunakan <strong>downTo</strong>
 </div>
 
 <h3>Step</h3>
@@ -438,3 +438,39 @@ catatan : kita tidak boleh mengganti nilai untuk variabel val ataupun constanta 
 <div style="text-align: justify;">
     catatan : tidak hanya untuk angka perbandingan ini juga termasuk ke huruf string dan char serta untuk === itu tidak hanya membandingkan dengan nilainya saja tetapi sama tipe data nya juga
 </div>
+
+## Operasi Boolean
+Operasi boolean adalah operasi yang membandingkan nilai yang bertipe data booolean, operasi ini menghasilkan true and false
+
+<table style="border: 1px solid black;">
+    <thead>
+        <tr>
+            <th>
+                Operasi
+            </th>
+            <th>Arti dan makna</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>&&</td>
+            <td>AND Artinya perbandingan nya jika <strong>kanan dan kiri true</strong> maka akan <strong>true</strong></td>
+        </tr>
+        <tr>
+            <td>||</td>
+            <td>OR Artinya perbandingan nya jika <strong>minimal kanan atau kiri bernilai true</strong> maka akan <strong>true</strong></td>
+        </tr>
+        <tr>
+            <td>!</td>
+            <td>NOT Artinya akan berkebalikan jika true menjadi false jika false menjadi true</td>
+        </tr>
+    </tbody>
+</table>
+
+### Cara pengunaanya : 
+<ul>
+    <li>hasil = cek && hadir == 'A'</li>
+    <li> hasil = cek || hadir == 'A'</li>
+    <li>hasil = !cek</li>
+</ul>
+catatan : Operasi ini hanya berlaku untuk tipe data boolean jadi perhatikan dulu apakah tipe datanya boolean atau bukan
