@@ -474,3 +474,5 @@ Operasi boolean adalah operasi yang membandingkan nilai yang bertipe data booole
     <li>hasil = !cek</li>
 </ul>
 catatan : Operasi ini hanya berlaku untuk tipe data boolean jadi perhatikan dulu apakah tipe datanya boolean atau bukan
+
+## Operasi penkondisian (if expression)
