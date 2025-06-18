@@ -476,3 +476,17 @@ Operasi boolean adalah operasi yang membandingkan nilai yang bertipe data booole
 catatan : Operasi ini hanya berlaku untuk tipe data boolean jadi perhatikan dulu apakah tipe datanya boolean atau bukan
 
 ## Operasi penkondisian (if expression)
+Penkondisian if expression merupakan operasi yang di gunakan untuk mengeksekusi code sesuai kondisi tertentu
+
+### cara penggunaanya :
+- if(nilai > 90){
+        println("Bagus beut anjing")
+    } = merupakan kondisi pertama yang akan di cek jika sesuai dengan kondisi maka program yang ada di dalam akan di jalankan
+- else if(nilai >70){
+        println("Mantap beut mayan")
+    } = merupakan kondisi kedua yang akan di cek jika kondisi if pertama tidak sesuai dengan kondisi yang di tentukan dan program yang ada di dalma else if maka akan di jalankan
+- else{
+        println("Belegug belegug teuing ai maneh")
+    } = merupakan kondisi terakhir jika semua if dan if else tidak ada yang sesuai kondisi maka program yang ada di kondisi else maka yang akan di jalankan
+
+catatan : Operasi if kondisi nya harus lah bertipe boolean sehingga dapat di gunakan
