@@ -490,3 +490,65 @@ Penkondisian if expression merupakan operasi yang di gunakan untuk mengeksekusi 
     } = merupakan kondisi terakhir jika semua if dan if else tidak ada yang sesuai kondisi maka program yang ada di kondisi else maka yang akan di jalankan
 
 catatan : Operasi if kondisi nya harus lah bertipe boolean sehingga dapat di gunakan
+
+
+## Operasi perbandingan when
+Operasi perbandingan when merupakan operasi perbandingan yang jarang di temui di bahasa pemograman lain serta operasi perbandingan ini merupakan perbandingan mirip dengna if else
+
+### When yang tidak memiliki kondisi
+when ini merupakan when yang hanya menyamankan tipe data dan value nya saja dan tidak ada kondisi yang di tentukan
+
+#### cara penggunaanya :
+-   when(grade){
+        'A' -> println("Nilai mu bagus anak anak ")
+        'B' -> println("Nilai mu sudah lumayan anak anak")
+        'C' -> println("Nilai mu mulai goreng anak anak")
+        else -> {
+            println("Geus teu lulus maneh beul")
+        }
+    }
+catatan : when ini harus lah memiliki tipe data yang sama dan value yang sama
+
+### when yang memiliki kondisi expressi
+when ini merupakan when yang memiliki kondisi expressi di dalam nya sehingga bisa membandingkan nilai yang di tentukan
+
+#### cara penggunaanya :
+-     val angka = 5
+    when{
+        angka > 9  -> println("Berhasil")
+        angka < 8 -> println("Lumayan")
+        else -> println("aweh nu di kabisa manehma")
+    }
+catatan : when ini akan membandingkan 2 nilai
+
+### when multi 
+when ini merupakan when yang isinya memiliki banyak kondisi untuk dalam mau menjalankan 1 program
+
+#### cara  penggunaanya : 
+-     when(coba){
+        "A","B","C" -> println("nah eta mah parada lulus")
+        else -> println("Astagfirullah ujang bisa bisana ga bisa lulus")
+    }
+    catatan : when ini dapat memiliki banyak kondisi
+
+### when in 
+when ini merupakan when ketika kita ingin membandingkna nilai nya apakah ada di dalam list atau array 
+
+#### cara penggunaanya :
+-   val lulus : Array<String> = arrayOf("A","B","C")
+    when (coba){
+        in lulus -> println("Lulus")
+        !in lulus -> println("Tidak lulus")
+    }
+    catatan : when ini dapat membandingkan nilai apakah ada di dalam array atau list
+
+### when is
+when ini merupakan when yang hanya mengecek tipe data dari apa yang di banding 
+
+#### cara penggunaanya :
+-     when(coba){
+        is String -> println("tipe datanya adalah string")
+        is Char -> println("Tipe datanya adalah char")
+        else -> println("tidak ada tipe data")
+    }
+    catatan : when ini dapat mengecek tipe data dari apa yang di banding
