@@ -549,6 +549,34 @@ when ini merupakan when yang hanya mengecek tipe data dari apa yang di banding
 -     when(coba){
         is String -> println("tipe datanya adalah string")
         is Char -> println("Tipe datanya adalah char")
-        else -> println("tidak ada tipe data")
-    }
+        else -> println("tidak ada tipe data")    }
+
     catatan : when ini dapat mengecek tipe data dari apa yang di banding
+
+## Operasi perulangan for
+Looping atau perulangan di dalam pemograman berfungsi untuk mengulang baris kode dan akan berhenti jika kondisi tertentu terpenuhi.
+salah satu contoh perulangan adalah <strong>FOR</strong>
+
+### For dalam perulangan mengambil isi dari array
+
+#### cara pengunaanya :
+-   val arr : Array &lt;String&gt; =  arrayOf("Nugie kurniawan","Rakha sagraha","Rizal hidayatulloh","Muhammad raihan setiaman")
+    for (i in arr){
+        println(i)
+    }
+
+### For dengan menggunakan range
+
+#### cara penggunaanya : 
+- var ukuran = 10
+    for (i in 0..ukuran){
+        println("Sudah mengulang ke $i kali")
+    }
+
+### For Untuk array tetapi mendapatkan index 
+
+#### cara penggunaanya : 
+-  var index = arr.size - 1
+    for(i in 0..index){
+        println("Index ke $i adalah ${arr.get(i)}")
+    }
