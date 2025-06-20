@@ -580,3 +580,5 @@ salah satu contoh perulangan adalah <strong>FOR</strong>
     for(i in 0..index){
         println("Index ke $i adalah ${arr.get(i)}")
     }
+
+## Operasi looping while
